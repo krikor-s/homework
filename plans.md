@@ -2,7 +2,7 @@ Plans
 ======
 
 + classes
-+ work
++ lol work
 + personal care
 
 
