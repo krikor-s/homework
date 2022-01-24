@@ -3,7 +3,7 @@ Plans
 
 + classes
 + lol work
-+ personal care
++ lol personal care
 
 
 -------
