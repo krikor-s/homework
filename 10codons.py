@@ -8,7 +8,6 @@ dna = 'ATAGCGAATATCTCTCATGAGAGGGAA'
 k = 3
 for i in range(0, len(dna), 3):
     print(dna[i:i+k])
-print("end of loop")
 
 """
 python3 10codons.py
