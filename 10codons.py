@@ -6,7 +6,7 @@
 
 dna = 'ATAGCGAATATCTCTCATGAGAGGGAA'
 k = 3
-for i in range(0, len(dna), 3):
+for i in range(0, len(dna), k):
     print(dna[i:i+k])
 
 """
