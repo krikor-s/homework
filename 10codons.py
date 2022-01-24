@@ -9,6 +9,7 @@ k = 3
 for i in range(0, len(dna), k):
     print(dna[i:i+k])
 
+# I worked with Paul
 """
 python3 10codons.py
 ATA

@@ -15,6 +15,7 @@ for i in range(1, (n+1)):
     mult *= i
 print(i, sum, mult)
 
+# I worked with Paul
 """
 python3 11sumfac.py
 5 15 120
