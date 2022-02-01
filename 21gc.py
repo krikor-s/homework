@@ -19,6 +19,7 @@ print('{:.2f}'.format(numGC/len(dna)))
 print('%.2f' % (numGC/len(dna)))
 print(f'{numGC/len(dna):.2f}')
 
+# worked with Paul, Thomas, and Tiffany
 
 """
 python3 21gc.py

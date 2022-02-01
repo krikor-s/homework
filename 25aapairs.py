@@ -13,7 +13,7 @@ for i in range(len(aa)):
         print(aa[i], aa[j])
 print(numAA)
 
-
+# worked with Paul, Thomas, and Tiffany
 
 """
 python3 25aapairs.py

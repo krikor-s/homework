@@ -25,6 +25,7 @@ for i in range(len(seq)-w+1):
             numGC += 1
     print(i, seq[i:i+w], f'{numGC/w:.4f}')
     
+# worked with Paul, Thomas, and Tiffany
 
 """
 python3 26gcwin.py

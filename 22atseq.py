@@ -12,24 +12,24 @@ import random
 # Report the length, AT fraction, and sequence
 
 dna = ''
-numGC = 0
+numAT = 0
 
 random.seed(1)
 for i in range(30):
     if random.random() < 0.6:
-        numGC += 1
-        if random.random() > 0.5:
-            dna += "G"
-        else:
-            dna += "C"
-    else:
+        numAT += 1
         if random.random() > 0.5:
             dna += "A"
         else:
             dna += "T"
-print(len(dna), numGC/len(dna), dna)
+    else:
+        if random.random() > 0.5:
+            dna += "G"
+        else:
+            dna += "C"
+print(len(dna), numAT/len(dna), dna)
 
-
+# worked with Paul, Thomas, and Tiffany
 
 """
 python3 22atseq.py

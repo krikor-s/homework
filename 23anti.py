@@ -17,6 +17,8 @@ for i in range(len(dna)):
     
 print(rdna[::-1])
 
+# worked with Paul, Thomas, and Tiffany
+
 """
 python3 23anti.py
 TTTTTTTTTTTCAGT
