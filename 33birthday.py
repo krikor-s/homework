@@ -35,7 +35,7 @@ for i in range(numtrials):
 
 print(f'{sharebday/numtrials:.3f}')
 
-
+#worked with Paul and Jojo(Yaniel)
 """
 python3 33birthday.py
 0.571

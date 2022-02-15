@@ -29,7 +29,7 @@ for i in probability:
     ent += -sum*i*math.log2(i) #entropy calc done
 print(f'{ent:.3f}')
 
-
+#worked with Paul and Jojo(Yaniel)
 """
 python3 31entropy.py 0.1 0.2 0.3 0.4
 1.846

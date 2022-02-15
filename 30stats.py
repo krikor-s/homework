@@ -27,7 +27,7 @@ Mean = add/len(arr1) #mean done
 #std calc
 Standev0 = 0
 for i in range(len(arr1)):
-    Standev0 += (arr1[i]-Mean)**2 #can't put whole formula in loop it will mess it up
+    Standev0 += (arr1[i]-Mean)**2 #can't put whole formula in loop it messes me up
 Standev1 = math.sqrt(Standev0/Count) #second part of formula
 #std done
 
