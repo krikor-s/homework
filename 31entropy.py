@@ -16,6 +16,13 @@ for i in range(1, len(sys.argv)):
     probability.append(float(sys.argv[i]))
     sum += float(sys.argv[i])
 
+#must be = to around 1
+allow = 0.01
+if abs(sum-0.1) > allow:
+    print("doesn't work")
+    sys.exit() #seen in lecture
+#maintains 1 with dif values in command line
+
 #entropy calc
 ent = 0
 for i in probability:
