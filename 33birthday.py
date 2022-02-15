@@ -26,8 +26,8 @@ for i in range(numtrials):
     for j in range(caldays): #make list for calender
         calendar.append(0)
     for x in range(people): #assign 25 people a random # between 0 and 364
-        position = random.randint(0, caldays - 1)
-        calendar[position] = calendar[position] + 1
+        calpos = random.randint(0, caldays - 1)
+        calendar[calpos] = calendar[calpos] + 1
     for y in calendar: #check if there is shared bday
         if y > 1:
             sharebday += 1 #add to the shared amount of bdays
